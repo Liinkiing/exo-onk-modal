@@ -1,66 +1,70 @@
-## Exo Ornikar : Intégration d'une modal
+# Getting Started with Create React App
 
-### ⏱ Durée
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-45 minutes d'exercice + 15 minutes de discussion
+## Available Scripts
 
-### 🎯 Objectif
+In the project directory, you can run:
 
-L'objectif de cet exercice est d'intégrer une modal pour une librairie de composants, puis d'en discuter.<br/>
-Ce composant devra être suffisament flexible et responsive pour respecter la spec designs et reprendre le maximum d'éléments de la liste de features dessous.<br/>
-<br/>
-Tu seras autonome, mais n'hésite pas à poser des questions au besoin pendant toute la durée de l'exercice !
-Aussi n'hésite pas à chercher au besoin ce dont tu as besoin sur internet (dans l'idéal, garde tes onglets de recherches ouverts 👀)
+### `npm start`
 
-### ✨ Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Voici la liste des features à ajouter à la modal. Il n'y a pas de minimum attendu, le but est d'avoir quelque chose à montrer à la fin de l'exercice et d'en discuter.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### Principales
+### `npm test`
 
-- Intégration mobile
-- Header et footer optionnels
-- Stickyness des header et du footer en mobile
-- Gestion du scroll et overflow dans la modal
-- Affichage et disparition de la modal
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Bonus
+### `npm run build`
 
-- Intégration desktop
-- Disparition de la modal au "click en dehors"
-- Disparition de la modal au clavier sur la touche Echap
-- Animation de l'entrée/sortie de la modal
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-_NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera utile._
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### 👩‍🎨 Design
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[Lien vers le design](https://www.figma.com/file/1Q8TbLHkhkbJZw67kgdfKV/Kitt-Modal)
+### `npm run eject`
 
-### 🏯 Structure du Projet
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```
-exo-modal
-├── .storybook
-└── src
-    ├── composants
-    │ └── Modal                   - ✍️ Composant à implémenter
-    │   ├── index.js
-    │   ├── stories.js
-    │ └── ModalLaucher            - 🔘 Composant de test qui va toggler la Modal
-    │   ├── index.js
-    │   ├── stories.js
-    ├── App.tsx
-    └── index.tsx
-```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### 🤖 Commande
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-`yarn storybook`: start Storybook
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### 📱 Breakpoints
+## Learn More
 
-`small : min-width: 480px;`<br/>
-`medium : min-width: 768px;`<br/>
-`large : min-width: 1024px;`<br/>
-`wide : min-width: 1280px;`<br/>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

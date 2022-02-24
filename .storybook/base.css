@@ -2,32 +2,32 @@
 
 @font-face {
   font-family: Geomanist;
-  src: url("../fonts/geomanist/geomanist-medium-webfont.woff2") format("woff2"),
-    url("../fonts/geomanist/geomanist-medium-webfont.woff") format("woff");
+  src: url("../src/assets/fonts/geomanist/geomanist-medium-webfont.woff2") format("woff2"),
+    url("../src/assets/fonts/geomanist/geomanist-medium-webfont.woff") format("woff");
   font-weight: 700;
   font-display: block;
 }
 
 @font-face {
   font-family: Geomanist;
-  src: url("../fonts/geomanist/geomanist-book-webfont.woff2") format("woff2"),
-    url("../fonts/geomanist/geomanist-book-webfont.woff") format("woff");
+  src: url("../src/assets/fonts/geomanist/geomanist-book-webfont.woff2") format("woff2"),
+    url("../src/assets/fonts/geomanist/geomanist-book-webfont.woff") format("woff");
   font-weight: 400;
   font-display: block;
 }
 
 @font-face {
   font-family: GeomanistHinted;
-  src: url("../fonts/geomanist/geomanist-medium-hinted.woff2") format("woff2"),
-    url("../fonts/geomanist/geomanist-medium-hinted.woff") format("woff");
+  src: url("../src/assets/fonts/geomanist/geomanist-medium-hinted.woff2") format("woff2"),
+    url("../src/assets/fonts/geomanist/geomanist-medium-hinted.woff") format("woff");
   font-weight: 700;
   font-display: block;
 }
 
 @font-face {
   font-family: GeomanistHinted;
-  src: url("../fonts/geomanist/geomanist-book-hinted.woff2") format("woff2"),
-    url("../fonts/geomanist/geomanist-book-hinted.woff") format("woff");
+  src: url("../src/assets/fonts/geomanist/geomanist-book-hinted.woff2") format("woff2"),
+    url("../src/assets/fonts/geomanist/geomanist-book-hinted.woff") format("woff");
   font-weight: 400;
   font-display: block;
 }
