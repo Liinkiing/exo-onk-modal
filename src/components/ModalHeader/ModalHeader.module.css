@@ -1,0 +1,7 @@
+.root {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 0 #ECEFF1;
+}
